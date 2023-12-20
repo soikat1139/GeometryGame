@@ -1,0 +1,714 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30152.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x006AC1B0 -il C:\\Users\\User\\AppData\\Local\\Temp\\_CL_3197f280ast -typedil -f imgui\\imgui_widgets.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930152 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\User\\Desktop\\SMFLGame\\imgui\\ -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\imgui_widgets.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\User\\Desktop\\SMFLGame -analyze:rulesetdirectory ;D:\\visualStudio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\visualStudio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Users\\User\\Desktop\\SMFLGame\\libraries\\include\\ -I D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\visualStudio\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\User\\Desktop\\SMFLGame\\Include\\um -external:I D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\visualStudio\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\visualStudio\\VC\\Auxiliary\\VS\\include -I D:\\visualStudio\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\User\\Desktop\\SMFLGame\\Include\\um -I C:\\Users\\User\\Desktop\\SMFLGame\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/User/Desktop/SMFLGame/libraries/include/SFML/Graphics/Glyph.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b1a63229decfdd88868a3de286f46096"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2f1ef7be25f4a015531fe2d3481f468b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics.hpp"
+          },
+          "hashes": {
+            "md5": "fa01548a5b9e165f86804378d73a6aae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window.hpp"
+          },
+          "hashes": {
+            "md5": "994fbb6e22dddc459911e2f502f8ad79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system.hpp"
+          },
+          "hashes": {
+            "md5": "ff14f76aefc09695fd362c433751e9ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/config.hpp"
+          },
+          "hashes": {
+            "md5": "5390fc783730c7b35b14a2ce57bb81ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/clock.hpp"
+          },
+          "hashes": {
+            "md5": "8ce5882da9e7512c6630c0ef1e998c50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/export.hpp"
+          },
+          "hashes": {
+            "md5": "cee714aa347737bd21a92a568fe0681e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/time.hpp"
+          },
+          "hashes": {
+            "md5": "217f2269f9c746109762bb3ded6eb8f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/err.hpp"
+          },
+          "hashes": {
+            "md5": "d2cbf8a165654d562148a2978c5854e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/fileinputstream.hpp"
+          },
+          "hashes": {
+            "md5": "a8cc89bee60818962431ca5b0d678bf9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/inputstream.hpp"
+          },
+          "hashes": {
+            "md5": "73a3a6473c5bc483565846ec2d2190b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/noncopyable.hpp"
+          },
+          "hashes": {
+            "md5": "d4d325c2b17b925a0f86b01348b489fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/lock.hpp"
+          },
+          "hashes": {
+            "md5": "a3846e66e6b61a56513dce1aa83c21f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/memoryinputstream.hpp"
+          },
+          "hashes": {
+            "md5": "e6d417b94154715ed787a9a01240889b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/mutex.hpp"
+          },
+          "hashes": {
+            "md5": "0ee3250e849ae8bdcbc2888d11b89a00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/sleep.hpp"
+          },
+          "hashes": {
+            "md5": "afbfa6670dd1209184c8f936f6fb0a46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/string.hpp"
+          },
+          "hashes": {
+            "md5": "ac26e08447a205bbf206f65155cd8c3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/utf.hpp"
+          },
+          "hashes": {
+            "md5": "dba35a27953f657f3a18f15dfcbe4c9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/utf.inl"
+          },
+          "hashes": {
+            "md5": "8d4ef32e3eeb0cad7d085e0fd9bcf7a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/string.inl"
+          },
+          "hashes": {
+            "md5": "871f9adb65a559696a80afe33c9231e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/thread.hpp"
+          },
+          "hashes": {
+            "md5": "2536dd834d64dea160162c0d9a423935"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/thread.inl"
+          },
+          "hashes": {
+            "md5": "f8abfdfc7c86a7b83e2b929258834997"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/threadlocal.hpp"
+          },
+          "hashes": {
+            "md5": "5f598c4db097f4cdb9d7de694bc9aa8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/threadlocalptr.hpp"
+          },
+          "hashes": {
+            "md5": "b5cee2d23f9d8749f075d2af61cfb546"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/threadlocalptr.inl"
+          },
+          "hashes": {
+            "md5": "91317c43fb9e42faf9a8be0786e48335"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/vector2.hpp"
+          },
+          "hashes": {
+            "md5": "a581ea1a0e3e81c0eb72b683dcf1e0cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/vector2.inl"
+          },
+          "hashes": {
+            "md5": "0189e7d6f655ceeb991d110e7e31f23e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/vector3.hpp"
+          },
+          "hashes": {
+            "md5": "7722d6361599e5fe2201f5bf107397b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/system/vector3.inl"
+          },
+          "hashes": {
+            "md5": "e95b62d26665e2bec2d4bf5f86a8d73b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/clipboard.hpp"
+          },
+          "hashes": {
+            "md5": "63d8debd807e75740e3dbe9ce49aba59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/export.hpp"
+          },
+          "hashes": {
+            "md5": "d2f92b20de7d784f6af5608ce7022839"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/context.hpp"
+          },
+          "hashes": {
+            "md5": "cd72678570ae839e4baeaed0937b9d33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/glresource.hpp"
+          },
+          "hashes": {
+            "md5": "ff22e3fa44449f7a5a93c4229130ab93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/contextsettings.hpp"
+          },
+          "hashes": {
+            "md5": "3bbb8e23539eea47c4278bbcb58217a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/cursor.hpp"
+          },
+          "hashes": {
+            "md5": "7ee62cf4efe0cea25b96f17f1712bf6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/event.hpp"
+          },
+          "hashes": {
+            "md5": "123e808b1537beda5aefd0842f05e52d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/joystick.hpp"
+          },
+          "hashes": {
+            "md5": "42319dd3481aad30e7e0737920803ace"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/keyboard.hpp"
+          },
+          "hashes": {
+            "md5": "e2943acd5fdfd96e3d31f44fe687b5c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/mouse.hpp"
+          },
+          "hashes": {
+            "md5": "0917016fb383f61752603a01785be74f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/sensor.hpp"
+          },
+          "hashes": {
+            "md5": "4e34744d950c6273c9b3dd2a188ecfe3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/touch.hpp"
+          },
+          "hashes": {
+            "md5": "13c7615d814cc346e3187141877a632a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/videomode.hpp"
+          },
+          "hashes": {
+            "md5": "fb5ddeb93a2f8d0c471705d3059e1184"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/window.hpp"
+          },
+          "hashes": {
+            "md5": "aa0334943601931186996f8b4a7d9487"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/windowbase.hpp"
+          },
+          "hashes": {
+            "md5": "062d51c6e62b4429b6565c74906d3936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/vulkan.hpp"
+          },
+          "hashes": {
+            "md5": "52a11b4f1a08e5fbb694cb6e31001c4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/windowhandle.hpp"
+          },
+          "hashes": {
+            "md5": "a7d670b87d629588efbac4c71f8b8a9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/window/windowstyle.hpp"
+          },
+          "hashes": {
+            "md5": "e6c2c9138db9fcbecded1141fb109485"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/blendmode.hpp"
+          },
+          "hashes": {
+            "md5": "739bd5adca5b79ef61fa9188b173da62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/export.hpp"
+          },
+          "hashes": {
+            "md5": "d6c2959a40a3f5aa1cf575803938d442"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/circleshape.hpp"
+          },
+          "hashes": {
+            "md5": "7871925b9d270f54e2688ae605cc774b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/shape.hpp"
+          },
+          "hashes": {
+            "md5": "ccd212329e82b0dec2745eba1772ab87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/drawable.hpp"
+          },
+          "hashes": {
+            "md5": "e4186191854714f1dac3ad763496a245"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/renderstates.hpp"
+          },
+          "hashes": {
+            "md5": "02cc2f5e65147a3042728e8c167f4574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/transform.hpp"
+          },
+          "hashes": {
+            "md5": "4ebe5f26b783fcd06076b0e9fc2f9594"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/rect.hpp"
+          },
+          "hashes": {
+            "md5": "7c74c45033357d5012db20dbfca27f7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/rect.inl"
+          },
+          "hashes": {
+            "md5": "ea5bdc77f05ed0f5cdcd2b917fd50f84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/transformable.hpp"
+          },
+          "hashes": {
+            "md5": "4bd08fe7361b8878bdea8413093c5c55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/vertexarray.hpp"
+          },
+          "hashes": {
+            "md5": "3b39f7d1b97d5a1478b3e106968bc1b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/vertex.hpp"
+          },
+          "hashes": {
+            "md5": "e3b7fea355d71cb653a22ebb8ac1b411"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/color.hpp"
+          },
+          "hashes": {
+            "md5": "e1e702c3c283a1eb19096c8429847207"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/primitivetype.hpp"
+          },
+          "hashes": {
+            "md5": "a2af4eea82091208d330cdf1e0699796"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/convexshape.hpp"
+          },
+          "hashes": {
+            "md5": "074c3b73941bc4ec8a320fde71db757d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/font.hpp"
+          },
+          "hashes": {
+            "md5": "a03f64deb911138268c7fca54fb9cbf7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/texture.hpp"
+          },
+          "hashes": {
+            "md5": "b9062f43c17dcd32e2b48fb7a9e5a1b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/image.hpp"
+          },
+          "hashes": {
+            "md5": "43bffa602272d8949bf75d4f6d02c445"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/rectangleshape.hpp"
+          },
+          "hashes": {
+            "md5": "a5f5c8bf6e9441578fed08d33236c075"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/rendertarget.hpp"
+          },
+          "hashes": {
+            "md5": "c1e4bda1596b0cc52c6ed6cc5e1158ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/view.hpp"
+          },
+          "hashes": {
+            "md5": "6f00aa6dfaf5ec43bcd931be897b7bdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/rendertexture.hpp"
+          },
+          "hashes": {
+            "md5": "9b7e7dedce8d2997a203754622234a9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/renderwindow.hpp"
+          },
+          "hashes": {
+            "md5": "9309360188f578669eed1b2528293db7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/shader.hpp"
+          },
+          "hashes": {
+            "md5": "eef42e805698dc8fc4415a295d8c1faa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/glsl.hpp"
+          },
+          "hashes": {
+            "md5": "3523150876acc93fd115f0e53677b5af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/glsl.inl"
+          },
+          "hashes": {
+            "md5": "a3a8954496d690768e5f9247968b4adc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/sprite.hpp"
+          },
+          "hashes": {
+            "md5": "3407beaaac6ac3d2752303959eb169df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/text.hpp"
+          },
+          "hashes": {
+            "md5": "fa709179cfc1c21dca10d81772456fb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/libraries/include/sfml/graphics/vertexbuffer.hpp"
+          },
+          "hashes": {
+            "md5": "84380f8b61daa6b3467a3d60a55e9cce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imgui.h"
+          },
+          "hashes": {
+            "md5": "8b2a6550272a6dade9820921a1534c43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imconfig.h"
+          },
+          "hashes": {
+            "md5": "500202b892376b21f68a59b1c7a18a79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imconfig-sfml.h"
+          },
+          "hashes": {
+            "md5": "ffa3d8085354b24f32f89f23b705018a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imgui-sfml_export.h"
+          },
+          "hashes": {
+            "md5": "269910f4ab3967cf7fe1fea65c141bb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imgui-sfml.h"
+          },
+          "hashes": {
+            "md5": "9a2ceab5ab604ab9257b4befe1732cd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imgui_widgets.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "819e4e609523b010355b176c7833f267"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "md5": "6ed29b7366aae90cb253947f1fe9cda6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/smflgame/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "md5": "0e57951dce919e3dd0daa7fdb2e584c5"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\Desktop\SMFLGame\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8106</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>33011</DEFECTCODE>
+    <DESCRIPTION>Unchecked upper bound for enum key used as index..</DESCRIPTION>
+    <FUNCTION>ImGui::GetKeyData</FUNCTION>
+    <DECORATED>?GetKeyData@ImGui@@YAPEAUImGuiKeyData@@PEAUImGuiContext@@W4ImGuiKey@@@Z</DECORATED>
+    <FUNCLINE>8096</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\Desktop\SMFLGame\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9056</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>33010</DEFECTCODE>
+    <DESCRIPTION>Unchecked lower bound for enum source used as index..</DESCRIPTION>
+    <FUNCTION>GetInputSourceName</FUNCTION>
+    <DECORATED>?GetInputSourceName@@YAPEBDW4ImGuiInputSource@@@Z</DECORATED>
+    <FUNCLINE>9052</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\Desktop\SMFLGame\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9062</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>33010</DEFECTCODE>
+    <DESCRIPTION>Unchecked lower bound for enum source used as index..</DESCRIPTION>
+    <FUNCTION>GetMouseSourceName</FUNCTION>
+    <DECORATED>?GetMouseSourceName@@YAPEBDW4ImGuiMouseSource@@@Z</DECORATED>
+    <FUNCLINE>9058</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\Desktop\SMFLGame\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>14321</LINE>
+      <COLUMN>114</COLUMN>
+    </SFA>
+    <DEFECTCODE>33010</DEFECTCODE>
+    <DESCRIPTION>Unchecked lower bound for enum key used as index..</DESCRIPTION>
+    <FUNCTION>ImGui::ShowMetricsWindow::funcs::IsLegacyNativeDupe</FUNCTION>
+    <DECORATED>?IsLegacyNativeDupe@funcs@?JE@??ShowMetricsWindow@ImGui@@YAXPEA_N@Z@SA_NW4ImGuiKey@@@Z</DECORATED>
+    <FUNCLINE>14321</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
